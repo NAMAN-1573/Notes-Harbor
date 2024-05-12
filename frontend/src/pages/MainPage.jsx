@@ -8,11 +8,12 @@ import { List } from "../components/List.jsx";
 
 const MainPage = () => {
   const [inputfieldvalue, setInputfieldvalue] = React.useState("");
+
   return (
     <>
       <div className="bg-gray-50 flex flex-col font-gilroy items-center justify-start mx-auto w-full">
         <div className="flex flex-col items-start justify-start w-full">
-          <div className="bg-white-A700 flex flex-col items-center justify-start p-[22px] sm:px-5 w-full">
+          {/* <div className="bg-white-A700 flex flex-col items-center justify-start p-[22px] sm:px-5 w-full">
             <div className="flex flex-col items-center justify-start mx-auto md:px-5 w-full">
               <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start w-full">
                 <Img
@@ -73,7 +74,7 @@ const MainPage = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-1 flex-col gap-[31px] items-start justify-start md:mt-0 mt-[37px] w-full">
             <Text className="text-gray-900 text-lg" size="txtGilroySemiBold18">
               QA Tracler
